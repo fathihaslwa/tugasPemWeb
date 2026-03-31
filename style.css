@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #fce4ec;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #f8bbd0;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #880e4f;
+}
+
+.header p {
+  color: #ad1457;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #f48fb1;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #f06292;
+  color: #fff;
+}
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #fce4ec;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #f8bbd0;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #fff0f3;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid #f8bbd0;
+}
+
+.card h2 {
+  color: #880e4f;
+}
+
+.card h3 {
+  color: #ad1457;
+}
+
+.card h5 {
+  color: #c2185b;
+}
+
+.card p {
+  color: #5d3a41;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+/* Follow Me links */
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+}
+
+.card ul li a {
+  color: #ad1457;
+  font-weight: bold;
+}
+
+.card ul li a:hover {
+  color: #880e4f;
+}
+
+/*Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f8bbd0;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.footer h2 {
+  color: #880e4f;
+}
+
+/* Responsive layout - when screen less than 800px */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when screen less than 400px */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
